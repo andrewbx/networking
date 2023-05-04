@@ -55,7 +55,6 @@ def main():
         print ('\nHost: ' + targetHost + '\n')
         for targetPort in targetPorts:
             conn(targetHost, int(targetPort))
-            print ('')
 
 if __name__ == '__main__':
     main()
